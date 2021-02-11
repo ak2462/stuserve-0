@@ -1,0 +1,128 @@
+*,body {
+    margin: 0;
+    padding: 0;
+    max-width: 1900px;
+    font-family:"Avenir-Medium" ;       
+}
+@font-face {
+    font-family: "Avenir-Medium" ;
+    src: url("../project/font/Avenir\ Medium.ttf");
+}
+.inner-container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+header {
+    display: grid;
+    grid-template-columns: 167px  1fr;
+    grid-gap: 100px;
+}
+/* .inner-container header .header-menu .right-menu ul {
+    display: inline-block;
+}
+.inner-container header .header-menu .right-menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+.inner-container header .header-menu .left-menu ul li {
+    list-style: none;
+}
+.inner-container header .header-menu .right-menu ul li a {
+    display: inline-block;
+    color: #A7A7A7;
+}
+.inner-container header .header-menu .left-menu ul li a {
+    text-decoration: none;
+    color: #A7A7A7;
+} */
+
+.header-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+}
+.header-menu ul  {
+    display: inline-block;
+    padding-left: 0px;
+    
+}
+.header-menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 5px;
+    line-height: 50px;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    color: #A7A7A7;
+    margin-right: 30px;
+    margin-bottom: 5px; 
+}
+header .logo img {
+    width:167px ;
+    height: 51px;
+    line-height: 50px;
+}
+button.All-post {
+    color: black;
+    background-color: blue;
+    border-radius: 5px;
+    margin-left: 267px;
+    margin-bottom: 10px;
+    width: 105px;
+    height: 30px;
+}
+
+.middle-container ul {
+    
+    padding-left: 0px;
+}
+.middle-container ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+.middle-container ul li ul {
+    margin-left: 10px;
+}.middle-container div.middle-page {
+    display: grid;
+    grid-template-columns: 167px 1fr;
+    grid-gap: 100px;
+}
+.bottom-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 415px;
+}
+.middle-container ul li a {
+    text-decoration: none;
+    color: #A7A7A7;
+} 
+.middle-container div.middle-page  div.view-side {
+    display: grid;
+    grid-template-rows: 180px 180px 370px;
+    grid-template-columns: 475px 475px;
+    grid-gap: 20px;
+}
+.view-side div {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+}
+.view-side div p {
+    margin-bottom: 10px;
+}
+.view-side div h5 {
+    margin-bottom: 10px;
+}
+/* .view-side div p img {
+    float: right;
+} */
+.view-side div img {
+    float: right;
+}
+div.inner-img {
+    border: none;
+}
+p.img {
+    float: none;
+}
